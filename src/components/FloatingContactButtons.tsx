@@ -33,7 +33,7 @@ export function FloatingContactButtons({ language }: FloatingContactButtonsProps
   const handleContact = (type: 'whatsapp' | 'telegram' | 'email') => {
     const contacts = {
       whatsapp: 'https://wa.me/YOUR_NUMBER', // Replace with actual WhatsApp number
-      telegram: 'https://t.me/YOUR_USERNAME', // Replace with actual Telegram username
+      telegram: 'https://t.me/Nic_ks_ss', // Replace with actual Telegram username
       email: 'mailto:contact@libraagency.com' // Replace with actual email
     };
 
