@@ -195,7 +195,7 @@ Created centralized currency configuration with:
 1. **Delete or update deprecated components** (HeroSection, IncomeSection, CasesSection)
 2. **Replace placeholder contact details:**
    - WhatsApp: Update `https://wa.me/YOUR_NUMBER`
-   - Telegram: Update `https://t.me/YOUR_USERNAME`
+   - Telegram: Update `https://t.me/Nic_ks_ss`
    - Email: Update `contact@libraagency.com`
 3. **A/B test trust strip positioning** (before vs after IncomeTrustBlock)
 4. **Add analytics tracking** on contact buttons

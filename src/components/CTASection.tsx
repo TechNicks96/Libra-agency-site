@@ -172,7 +172,7 @@ export function CTASection({ language }: CTASectionProps) {
 
             {/* Telegram */}
             <button
-              onClick={() => window.open('https://t.me/YOUR_USERNAME', '_blank')}
+              onClick={() => window.open('https://t.me/Nic_ks_ss', '_blank')}
               className="group flex items-center gap-3 px-6 py-4 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-semibold rounded-2xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"
             >
               <Send className="w-5 h-5" />

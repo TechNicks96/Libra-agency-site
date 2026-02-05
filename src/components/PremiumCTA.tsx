@@ -81,7 +81,7 @@ export function PremiumCTA({ language }: PremiumCTAProps) {
 
           {/* Telegram */}
           <a
-            href="https://t.me/YOUR_USERNAME"
+            href="https://t.me/Nic_ks_ss"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105"
