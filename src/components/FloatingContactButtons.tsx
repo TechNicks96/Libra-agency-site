@@ -30,15 +30,21 @@ export function FloatingContactButtons({ language }: FloatingContactButtonsProps
 
   const text = tooltips[language];
 
-  const handleContact = (type: 'whatsapp' | 'telegram' | 'email') => {
-    const contacts = {
-      whatsapp: 'https://wa.me/YOUR_NUMBER', // Replace with actual WhatsApp number
-      telegram: 'https://t.me/Nic_ks_ss', // Replace with actual Telegram username
-      email: 'mailto:contact@libraagency.com' // Replace with actual email
-    };
+ const handleContact = (type: 'whatsapp' | 'telegram' | 'email') => {
+  const contacts = {
+    whatsapp: 'https://api.whatsapp.com/send?phone=5548984450110',
+    telegram: 'https://t.me/Nic_ks_ss',
+    email: 'https://mail.google.com/mail/?view=cm&to=libreeof@gmail.com'
+  } as const;
 
-    window.open(contacts[type], '_blank');
-  };
+  const url = contacts[type];
+
+  // 1) пробуем открыть в новой вкладке
+  const win = window.open(url, '_blank', 'noopener,noreferrer');
+
+  // 2) если браузер заблокировал попап, делаем fallback в текущей вкладке
+  if (!win) window.location.href = url;
+};
 
   return (
     <div className="fixed right-6 bottom-6 z-50 flex flex-col gap-3">
