@@ -163,7 +163,7 @@ export function CTASection({ language }: CTASectionProps) {
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {/* WhatsApp */}
             <button
-              onClick={() => window.open('https://wa.me/YOUR_NUMBER', '_blank')}
+              onClick={() => window.open("https://api.whatsapp.com/send?phone=5548984450110", "_blank", "noopener,noreferrer")}
               className="group flex items-center gap-3 px-6 py-4 bg-gradient-to-br from-green-500 to-green-600 text-white font-semibold rounded-2xl shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-105"
             >
               <MessageCircle className="w-5 h-5" />
@@ -181,7 +181,7 @@ export function CTASection({ language }: CTASectionProps) {
 
             {/* Email */}
             <button
-              onClick={() => window.open('mailto:contact@libraagency.com', '_blank')}
+              onClick={() => window.open('mailto:libreeof@gmail.com', '_blank')}
               className="group flex items-center gap-3 px-6 py-4 bg-gradient-to-br from-purple-500 to-purple-600 text-white font-semibold rounded-2xl shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
             >
               <Mail className="w-5 h-5" />

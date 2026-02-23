@@ -1,4 +1,5 @@
 import { ArrowRight, Shield, Eye, Sparkles, Lock } from 'lucide-react';
+import { PremiumHeroIllustration } from './PremiumHeroIllustration';
 import { PremiumCTAButton } from './PremiumCTAButton';
 
 interface PremiumHeroProps {
