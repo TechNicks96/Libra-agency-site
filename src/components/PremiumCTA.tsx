@@ -66,7 +66,7 @@ export function PremiumCTA({ language }: PremiumCTAProps) {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/5548984450110"
+            href="https://api.whatsapp.com/send?phone=5548984450110"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-green-400 hover:shadow-2xl hover:shadow-green-500/20 transition-all duration-300 hover:scale-105"
