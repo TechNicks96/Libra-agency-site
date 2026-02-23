@@ -66,7 +66,7 @@ export function PremiumCTA({ language }: PremiumCTAProps) {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/YOUR_NUMBER"
+            href="https://wa.me/5548984450110"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-green-400 hover:shadow-2xl hover:shadow-green-500/20 transition-all duration-300 hover:scale-105"
@@ -96,7 +96,7 @@ export function PremiumCTA({ language }: PremiumCTAProps) {
 
           {/* Email */}
           <a
-            href="mailto:contact@libraagency.com"
+            href="mailto:libreeof@gmail.com"
             className="group p-8 bg-white border-2 border-gray-200 rounded-3xl hover:border-purple-400 hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-105"
           >
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
